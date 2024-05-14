@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            background-color: bisque;
+            font-style: italic;
+        }
+
+        h1{
+            background-color: bisque;
+            font-style: italic; 
+            color: rgb(166, 82, 244);
+        }
+
+        body{
+            background-color: bisque;
+        }
+    </style>
+    <title>DAY3</title>
+</head>
+<body>
+    <h1>Student Registration for MERN Full Stack</h1>
+    <form action="backend.php">
+        <div> Name: <input type="text"/>            Surname: <input type="text"/>
+         
+        </div><br>
+
+        <div>
+            <label for="sex">Sex:</label> <input type="radio" name="sex" id="male" value="male"> <label for="male">Male</label> <input type="radio" name="sex" id="female" value="female"> <label for="female">Female</label>
+            <br>
+        
+        </div>
+        <div>
+            Email:<input type="email" value=""/>
+        </div><br>
+        <div>
+            Password:<input type="password" value=""/>
+        </div> <br>
+
+        <div>
+          Message:<br>
+         <textarea name="message" id="message" cols="30" rows="4"></textarea>
+         <br>
+        </div>
+    </form>
+</body>
+</html>
